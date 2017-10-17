@@ -15,7 +15,7 @@ We have picked up the photovoltaic power plants listed on [the website of Electr
 These patch images are classified as “positives” if the solar panels cover more than 20% of the total areas, while patches with no solar panels are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
 
 
-You can download the **MUSIC** for P3 dataset with two different format (HDF5 and GeoTiff) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
+You can download the **MUSIC** for P3 dataset with two different format ([HDF5](https://github.com/gistairc/MUSIC4P3#hdf5) and [GeoTiff](https://github.com/gistairc/MUSIC4P3#tiff)) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
 
 [1] *Tomohiro Ishii, Edgar Simo-Serra, Satoshi Iizuka, Yoshihiko Mochizuki, Akihiro Sugimoto, Ryosuke Nakamura, Hiroshi Ishikawa ,"Detection by Classification of Buildings in Multispectral Satellite Imagery," ICPR 2016.* (http://www.f.waseda.jp/hfs/IshiiICPR2016.pdf)  
 
