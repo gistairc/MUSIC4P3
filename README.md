@@ -15,7 +15,7 @@ We have picked up the photovoltaic power plants listed on [the website of Electr
 These patch images are classified as “positives” if the solar panels cover more than 20% of the total areas, while patches with no solar panels are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
 
 
-You can download the MUSIC for P3 dataset with two different format (HDF5 and GeoTiff) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
+You can download the **MUSIC** for P3 dataset with two different format (HDF5 and GeoTiff) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
 
 [1] *Tomohiro Ishii, Edgar Simo-Serra, Satoshi Iizuka, Yoshihiko Mochizuki, Akihiro Sugimoto, Ryosuke Nakamura, Hiroshi Ishikawa ,"Detection by Classification of Buildings in Multispectral Satellite Imagery," ICPR 2016.* (http://www.f.waseda.jp/hfs/IshiiICPR2016.pdf)  
 
@@ -26,16 +26,16 @@ It should be noted here that the initial dataset (V1) is contaminated by small-s
 
 
 ## Download  
-**IMPORTANT** -- Please read the [Terms of Use](https://github.com/hmiyamoto/ABSoPIdataset/blob/master/LICENSE.md) before downloading the ABSoPI dataset.
+**IMPORTANT** -- Please read the [Terms of Use](https://github.com/gistairc/MUSIC4P3dataset/blob/master/LICENSE.md) before downloading the MUSIC4P3 dataset.
 
 
 #### hdf5
-HDF5 version (for using Torch version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_hdf.zip) (4.6GB) .  
+HDF5 version (for using Torch version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf.zip) (4.6GB) .  
 Or type the following in the terminal.  
 
 ```
-$ wget http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_hdf.zip
-$ unzip ABSoPIdata_hdf.zip
+$ wget http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf.zip
+$ unzip MUSIC4P3data_hdf.zip
 ```
 
 Schematic of the directory configuration in the unzipped files is as follows:  
@@ -53,11 +53,11 @@ test/
 ```
 
 #### tiff
-Tiff version (for using Chainer version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_tiff.zip) (4.2GB) .  
+Tiff version (for using Chainer version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff.zip) (4.2GB) .  
 Or type the following in the terminal.  
 ```
-$ wget http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_tiff.zip
-$ unzip ABSoPIdata_tiff.zip
+$ wget http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff.zip
+$ unzip MUSIC4P3data_tiff.zip
 ```
 Schematic of the directory configuration in the unzipped files is as follows:  
 ```
