@@ -9,7 +9,7 @@ The number of photovoltaic power plants is growing so rapidly that we must rely 
 
 We have picked up the photovoltaic power plants listed on [the website of Electrical Japan](http://agora.ex.nii.ac.jp/earthquake/201103-eastjapan/energy/electrical-japan/type/8.html.ja) only if they generated more than 5MW electricity and the construction had been completed by 2015. The multiband satellite images of these target areas, taken by [Landsat-8](https://landsat.usgs.gov/landsat-8), were cropped into a 16 × 16 grid covering a 480 × 480 meter area as shown below. 
 
-![fig:ABSoPI image patch example](https://github.com/gistairc/ABSoPIdataset/blob/master/fig.jpg "megasolar image patch example")  
+![fig:MUSIC4P3 image patch example](https://github.com/gistairc/MUSIC4P3/blob/master/fig.jpg "megasolar image patch example")  
 
 
 These patch images are classified as “positives” if the solar panels cover more than 20% of the total areas, while patches with no solar panels are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
