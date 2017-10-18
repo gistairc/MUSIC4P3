@@ -21,7 +21,7 @@ You can download the **MUSIC** for P3 dataset with two different format ([HDF5](
 
 [2] *Nevrez Imamoglu, Motoki Kimura, Hiroki Miyamoto, Aito Fujita, Ryosuke Nakamura,"Solar Power Plant Detection on Multi-Spectral Satellite Imagery using Weakly-Supervised CNN with Feedback Features and m-PCNN Fusion," BMVC 2017.* (https://arxiv.org/abs/1704.06410)  
 
-It should be noted here that the initial dataset (V1) is contaminated by small-scale plants not included in the original inventory. After publishing these papers, we have checked all the false positives through in-situ survey or high-resolution imagery. In fact, some of "false positives" are found to be relatievely small photovoltaic power plants unlisted in the original database. We produced updated V2 dataset by correcting these misclassification. The performance of our previous works was estimated with  V1 dataset, but more accurate estimate can be achieved by using V2.
+It should be noted here that the "negatives" in the initial dataset (V1) is contaminated by small-scale photovoltaic power plants not included in the original inventory. After publishing these papers, we have checked all the false positives through in-situ survey or high-resolution imagery. In fact, some of "false positives" are found to be relatievely small photovoltaic power plants unlisted in the original database. We produced updated V2 dataset by correcting these misclassification. The performance of our previous works was estimated with  V1 dataset, but more accurate estimate can be achieved by using V2.
 
 
 
@@ -38,7 +38,7 @@ $ wget http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf.zip
 $ unzip MUSIC4P3data_hdf.zip
 ```
 
-Schematic of the directory configuration in the unzipped files is as follows:  
+The directory configuration in the unzipped folder:  
 ```
 ./resource/
 train/  
@@ -59,7 +59,7 @@ Or type the following in the terminal.
 $ wget http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff.zip
 $ unzip MUSIC4P3data_tiff.zip
 ```
-Schematic of the directory configuration in the unzipped files is as follows:  
+The directory configuration in the unzipped files is as follows:  
 ```
 ./resource/
 train/
@@ -92,7 +92,7 @@ test/
 For torch installition see http://torch.ch/  
 * torch_toolbox  
 Download from https://github.com/e-lab/torch-toolbox  
-Unzip it and put on it same directory.  
+Unzip and put the it on the same directory.  
 ```
 FOR EXAMPLE
 	<dir>torch/
@@ -104,19 +104,17 @@ FOR EXAMPLE
 		test-cnn.sh ...
 ```
  
-Can be changed by passing in train-cnn.lua line 9.
-
 #### Training
-For trainging, type the following this code in the terminal.  
+For trainging, type the followingin the terminal.  
 
 ```
 $ sh train-cnn.sh
 ```
-Models are saved to "./ishiinet_p1n15/cnn_nm_epXXXX.net" (Can be changed by passing in train-cnn.sh) .  
+Models are saved to "./ishiinet_p1n15/cnn_nm_epXXXX.net" (the output file name is specified in  train-cnn.sh) .  
 
 #### Testing
 
-Type the following command in the terminal.  
+Type the following in the terminal.  
 
 ```
 $ sh test-cnn.sh
@@ -129,19 +127,19 @@ Can be changed by passing in this shell file.
 #### Requierment
 * Python 2.7.*  
 * Chainer 1.24.*  
-For chainer Installition see from https://chainer.org/  
+For chainer Installition, see from https://chainer.org/  
 
 #### Training
-Type the following this code in the terminal.   
+Type the following in the terminal.   
 
 ```
 $ sh train.sh
 ```
  
-Models are save to ./result/ (Can be changed by passing in this shell file) . 
+Models are save to ./result/ (the output directory is specified in train.sh) . 
 
 #### Testing
-Type the following this code in the terminal.   
+Type the following  in the erminal.   
 
 ```
 $ sh test.sh > result.log
