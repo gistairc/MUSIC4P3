@@ -21,6 +21,7 @@ You can download the **MUSIC** for P3 dataset with two different format ([HDF5](
 
 [2] *Nevrez Imamoglu, Motoki Kimura, Hiroki Miyamoto, Aito Fujita, Ryosuke Nakamura,"Solar Power Plant Detection on Multi-Spectral Satellite Imagery using Weakly-Supervised CNN with Feedback Features and m-PCNN Fusion," BMVC 2017.* (https://arxiv.org/abs/1704.06410)  
 
+##### Update data V2
 It should be noted here that the "negatives" in the initial dataset (V1) is contaminated by small-scale photovoltaic power plants not included in the original inventory. After publishing these papers, we have checked all the false positives through in-situ survey or high-resolution imagery. In fact, some of "false positives" are found to be relatievely small photovoltaic power plants unlisted in the original database. We produced updated V2 dataset by correcting these misclassification. The performance of our previous works was estimated with  V1 dataset, but more accurate estimate can be achieved by using V2.
 
 
@@ -50,7 +51,13 @@ val/
 test/
 	LC81060302015147LGN00.hdf5
 	LC81070302015266LGN00.hdf5 ...
+	
+	
 ```
+
+
+V2 data is [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf_v2.zip).
+
 
 #### tiff
 Tiff version (for using [Chainer](https://github.com/gistairc/MUSIC4P3#chainer-ver) version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff.zip) (4.2GB) .  
@@ -84,6 +91,8 @@ test/
 		LC81060302015147LGN00_100_100.tiff
 		LC81060302015147LGN00_100_101.tiff ...
 ```
+
+V2 dataset is [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff_v2.zip).
 
 ## Source
 ### Torch ver  
