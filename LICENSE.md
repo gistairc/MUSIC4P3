@@ -6,8 +6,7 @@ The users of the MUSIC for P3 dataset must abide by the following Terms of Use:
 
 1. When publishing results that use this dataset, the users shall comply with the following matters:
 	* The users must cite the URL of the MUSIC for P3 dataset (i.e., https://github.com/gistairc/MUSIC4P3) in their publication.
-	* The original data are copyrighted by AIST. Thus, the users must include the text "The copyright of data is retained by AIST." in their publication to show attribution to the data provider.
-
+	
 
 2. By downloading the dataset, the users are regarded as having agreed to the Terms of Use.
 
