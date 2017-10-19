@@ -56,7 +56,7 @@ test/
 ```
 
 
-V2 data is [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf_v2.zip).
+[V2](https://github.com/gistairc/MUSIC4P3/blob/master/README.md#update-data-v2) data is [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf_v2.zip).
 
 
 #### tiff
@@ -92,7 +92,7 @@ test/
 		LC81060302015147LGN00_100_101.tiff ...
 ```
 
-V2 dataset is [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff_v2.zip).
+[V2](https://github.com/gistairc/MUSIC4P3/blob/master/README.md#update-data-v2) dataset is [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff_v2.zip).
 
 ## Source
 ### Torch ver  
