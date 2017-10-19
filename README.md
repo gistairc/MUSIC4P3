@@ -40,7 +40,7 @@ $ unzip MUSIC4P3data_hdf.zip
 
 The directory configuration in the unzipped folder:  
 ```
-./resource/
+./torch/resource/
 train/  
 	LC81060302015147LGN00.hdf5
 	LC81070302015266LGN00.hdf5 ...
@@ -61,7 +61,7 @@ $ unzip MUSIC4P3data_tiff.zip
 ```
 The directory configuration in the unzipped files is as follows:  
 ```
-./resource/
+./chainer/resource/
 train/
 	positive/
 		LC81060302015147LGN00_274_300_2064.tiff
