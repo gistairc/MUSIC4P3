@@ -89,7 +89,7 @@ def trainMegaSolarCNN():
 	
 	batchlooplen = len(range(0, NumNegTrainData, negbatchsize));
 	datasize = batchlooplen*(posbatchsize+negbatchsize)
-	NUMEPOCH = 2000 
+	NUMEPOCH = 5000 
 	for epoch in range(NUMEPOCH):
 		print('epoch %d' % epoch)
 		sum_loss = 0
