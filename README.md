@@ -127,7 +127,8 @@ Type the following in the terminal.
 $ sh test-cnn.sh
 ```
 Result file are saved to "./ishiinet_p1n15/test_th0.999_all_cm.txt".  
-Can be changed by passing in this shell file.  
+Can be changed by passing in this shell file. 
+If you want to the same result from paper\[1\], please use this [pre training model.]()
 
 
 ### Chainer ver
