@@ -89,7 +89,7 @@ def testMegaSolarCNN():
 	
 	iou_all = []
 	
-	my_pos_thresh = 0.006
+	my_pos_thresh = 0.999
 
 	for epoch in range(0,MAX_EPOCH, 1):
 		print('EPOCH  %d' % epoch)
