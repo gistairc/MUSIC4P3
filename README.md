@@ -146,13 +146,15 @@ $ sh train.sh
 Models are save to ./result/ (the output directory is specified in train.sh) . 
 
 #### Testing
-Type the following  in the erminal.   
+
+Type the following  in the terminal. If you want to the same result from paper\[1\], please use this [pre training model.]()
 
 ```
 $ sh test.sh > result.log
 ```
 
 Result file are created to ./result.log .  
+If you want to the same result from paper\[1\], please use this [pre training model.]()
 
 ## Acknowledgement
 This dataset and source code are based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).  
