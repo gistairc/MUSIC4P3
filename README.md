@@ -128,7 +128,7 @@ $ sh test-cnn.sh
 ```
 Result file are saved to "./ishiinet_p1n15/test_th0.999_all_cm.txt".  
 Can be changed by passing in this shell file. 
-If you want to the same result from paper\[1\], please use this [pre training model.]()
+If you want to the same result from paper\[1\], please use this [pre training model.](http://data.airc.aist.go.jp/MUSIC4P3dataset/cnn_nm_ep1930.net)
 
 
 ### Chainer ver
@@ -148,7 +148,7 @@ Models are save to ./result/ (the output directory is specified in train.sh) .
 
 #### Testing
 
-Type the following  in the terminal. If you want to the same result from paper\[1\], please use this [pre training model.]()
+Type the following  in the terminal. If you want to the same result from paper\[1\], please use this [pre training model.](http://data.airc.aist.go.jp/MUSIC4P3dataset/newmegasolarCNN_NS_72720_3725_iteration.model)
 
 ```
 $ sh test.sh > result.log
